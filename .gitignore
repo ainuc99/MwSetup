@@ -1,0 +1,5 @@
+.DS_Store
+*.o
+*.o.tmp
+mwsetup
+*.a
