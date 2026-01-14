@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
   /**
    * open mwvd device
    */
-  lfd = open(argv[2], O_RDONLY);
+  lfd = open(argv[2], O_RDWR);
   if (lfd < 0)
   {
     perror("ioctl open");
